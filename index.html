@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shagon Malam Audu: kayan masarufi masu inganci a Kano a farashi mai sauƙi.">
+  <title>Shagon Malam Audu | Kayan Masarufi a Kano</title>
+  <style>
+    :root { --kore:#167a45; --kore-duhu:#105b34; --kore-haske:#eaf6ee; --fari:#fff; --rubutu:#203128; --laushi:#65736a; --iyaka:#e2ebe5; --inuwa:0 12px 30px rgba(16,91,52,.09); }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--rubutu); background:var(--fari); line-height:1.65; }
+    a { color:inherit; text-decoration:none; }
+    .kwantena { width:min(1100px,calc(100% - 36px)); margin:0 auto; }
+    header { color:var(--fari); background:linear-gradient(135deg,var(--kore-duhu),var(--kore)); padding:22px 0 64px; }
+    nav { display:flex; justify-content:space-between; align-items:center; gap:18px; }
+    .alama { font-weight:800; font-size:1.12rem; letter-spacing:.2px; }
+    .hanyoyi { display:flex; gap:22px; font-size:.94rem; }
+    .hanyoyi a { opacity:.92; }
+    .hanyoyi a:hover { opacity:1; text-decoration:underline; }
+    .gabatarwa { padding-top:64px; max-width:680px; }
+    .karamin-take { display:inline-block; padding:6px 12px; border-radius:30px; background:rgba(255,255,255,.15); font-size:.85rem; }
+    h1 { font-size:clamp(2.2rem,6vw,4rem); line-height:1.12; margin:17px 0 14px; }
+    .gabatarwa p { color:#e6f4eb; font-size:1.08rem; max-width:570px; margin:0 0 26px; }
+    .maɓalli { display:inline-flex; align-items:center; justify-content:center; border:0; border-radius:9px; padding:12px 19px; background:var(--fari); color:var(--kore-duhu); font-weight:700; transition:transform .2s,box-shadow .2s; }
+    .maɓalli:hover { transform:translateY(-2px); box-shadow:var(--inuwa); }
+    section { padding:65px 0; }
+    .kan-sashe { text-align:center; margin:0 auto 32px; max-width:620px; }
+    .kan-sashe .karami { color:var(--kore); font-weight:700; font-size:.88rem; }
+    h2 { font-size:clamp(1.7rem,4vw,2.35rem); margin:5px 0 8px; line-height:1.2; }
+    .kan-sashe p,.game-da-mu p { color:var(--laushi); margin:0; }
+    .kayayyaki { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+    .kati { border:1px solid var(--iyaka); border-radius:15px; overflow:hidden; background:var(--fari); box-shadow:0 5px 18px rgba(20,60,35,.04); transition:transform .2s,box-shadow .2s; }
+    .kati:hover { transform:translateY(-4px); box-shadow:var(--inuwa); }
+    .hoton { min-height:145px; display:grid; place-items:center; background:var(--kore-haske); font-size:3.7rem; }
+    .cikin-kati { padding:17px; }
+    .cikin-kati h3 { margin:0 0 5px; font-size:1.1rem; }
+    .farashi { color:var(--kore); font-weight:800; font-size:1.08rem; }
+    .game-da-mu { background:var(--kore-haske); }
+    .game-da-mu .rubutu { max-width:760px; margin:0 auto; text-align:center; }
+    .game-da-mu p { font-size:1.04rem; }
+    .lambobi { display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:24px; }
+    .lamba { background:var(--fari); border:1px solid #d9e9de; padding:10px 16px; border-radius:10px; font-weight:700; color:var(--kore-duhu); }
+    .tuntuɓa { text-align:center; }
+    .tuntuɓa p { color:var(--laushi); margin:0 auto 22px; max-width:540px; }
+    .whatsapp { background:#20a85a; color:white; }
+    .whatsapp:hover { background:#168747; }
+    footer { background:#103f28; color:#e4f2e9; padding:20px 0; text-align:center; font-size:.9rem; }
+    footer p { margin:0; }
+    @media(max-width:760px) { .kayayyaki{grid-template-columns:repeat(2,1fr);gap:13px} .hanyoyi{gap:12px;font-size:.84rem} .gabatarwa{padding-top:48px} section{padding:52px 0} }
+    @media(max-width:480px) { .kwantena{width:min(100% - 28px,1100px)} nav{align-items:flex-start;flex-direction:column;gap:12px} .hanyoyi{width:100%;justify-content:space-between;gap:8px} header{padding-bottom:48px} .kayayyaki{grid-template-columns:1fr 1fr;gap:10px} .hoton{min-height:112px;font-size:2.8rem} .cikin-kati{padding:12px} .cikin-kati h3{font-size:.98rem} .farashi{font-size:.98rem} }
+  </style>
+</head>
+<body>
+<header id="gida"><div class="kwantena">
+  <nav aria-label="Babban menu"><a class="alama" href="#gida">Shagon Malam Audu</a><div class="hanyoyi"><a href="#kayayyaki">Kayayyaki</a><a href="#game-da-mu">Game da mu</a><a href="#tuntuba">Tuntuɓe mu</a></div></nav>
+  <div class="gabatarwa"><span class="karamin-take">A Kano, don hidimar al'umma</span><h1>Kayan masarufi masu inganci, a farashi mai sauƙi.</h1><p>Maraba da zuwa Shagon Malam Audu. Muna samar da kayan amfanin gida na yau da kullum cikin sauƙi da aminci.</p><a class="maɓalli" href="#kayayyaki">Duba kayayyakinmu</a></div>
+</div></header>
+<main>
+<section id="kayayyaki"><div class="kwantena"><div class="kan-sashe"><span class="karami">ABUBUWAN DA MUKE SAYARWA</span><h2>Kayayyakinmu</h2><p>Ga wasu daga cikin kayayyakin da za ku samu a shagonmu.</p></div>
+<div class="kayayyaki">
+<article class="kati"><div class="hoton" aria-hidden="true">🍚</div><div class="cikin-kati"><h3>Shinkafa (1kg)</h3><div class="farashi">₦1,800</div></div></article>
+<article class="kati"><div class="hoton" aria-hidden="true">🍬</div><div class="cikin-kati"><h3>Sukari (1kg)</h3><div class="farashi">₦1,500</div></div></article>
+<article class="kati"><div class="hoton" aria-hidden="true">🛢️</div><div class="cikin-kati"><h3>Man girki (1L)</h3><div class="farashi">₦2,800</div></div></article>
+<article class="kati"><div class="hoton" aria-hidden="true">🫘</div><div class="cikin-kati"><h3>Wake (1kg)</h3><div class="farashi">₦1,600</div></div></article>
+<article class="kati"><div class="hoton" aria-hidden="true">🧼</div><div class="cikin-kati"><h3>Sabulun wanki</h3><div class="farashi">₦900</div></div></article>
+<article class="kati"><div class="hoton" aria-hidden="true">🧂</div><div class="cikin-kati"><h3>Gishiri (1kg)</h3><div class="farashi">₦700</div></div></article>
+</div></div></section>
+<section class="game-da-mu" id="game-da-mu"><div class="kwantena rubutu"><span class="karami">SANIN MU</span><h2>Game da mu</h2><p>Shagon Malam Audu shago ne na kayan masarufi da ke Kano. Manufarmu ita ce samar wa al'umma muhimman kayan amfanin gida cikin gaskiya, kulawa da farashi mai sauƙi. Muna maraba da kowa, kuma muna ƙoƙarin ganin kowanne kwastoma ya samu abin da yake buƙata cikin sauƙi.</p><div class="lambobi"><span class="lamba">Amana da gaskiya</span><span class="lamba">Farashi mai sauƙi</span><span class="lamba">Hidima mai kyau</span></div></div></section>
+<section class="tuntuɓa" id="tuntuba"><div class="kwantena"><span class="karami" style="color:var(--kore);font-weight:700">MUNA JIRAN SAƘONKU</span><h2>Tuntuɓe mu</h2><p>Ku aiko mana da saƙo ta WhatsApp domin tambayar kaya, farashi ko yin odar abin da kuke buƙata.</p><a class="maɓalli whatsapp" target="_blank" rel="noopener noreferrer" href="https://wa.me/?text=Assalamu%20alaikum%2C%20ina%20son%20tambaya%20game%20da%20kayayyakin%20Shagon%20Malam%20Audu.">Turo saƙo ta WhatsApp</a></div></section>
+</main>
+<footer><div class="kwantena"><p>© <span id="shekara"></span> Shagon Malam Audu. An tanadi duk haƙƙoƙi.</p></div></footer>
+<script>document.getElementById('shekara').textContent=new Date().getFullYear();</script>
+</body></html>
